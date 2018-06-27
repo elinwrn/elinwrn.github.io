@@ -2,7 +2,7 @@
 body {
   font-family: 'Oswald', sans-serif;
 }
-
+/*desktop*/
   h1 {
     font-size: 70px;
     font-weight: 700;
@@ -26,14 +26,15 @@ body {
     margin: 0px;
   }
   h4 {
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 500;
     text-transform: uppercase;
     color: #28F9C2;
-    margin: 0px;
+    margin: -5px;
+    text-align: left;
   }
   h5 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     text-transform: uppercase;
     color: #28F9C2;
@@ -45,9 +46,6 @@ body {
     text-transform: uppercase;
     color: #000000;
     text-align: center;
-  }
-  img {
-    width: 33%;
   }
   span {
     font-size: 30px;
@@ -105,9 +103,6 @@ body {
     margin: 50px;
     padding-top: 20px;
   }
-  .future-img {
-    width: 66%;
-  }
 
   /*ikoner*/
   .numbers {
@@ -140,94 +135,42 @@ body {
     color: #000000;
   }
 
+
+
 /*Mobile*/
 @media only screen and (max-width: 759px) {
 h1 {
   font-size: 40px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #28F9C2;
+
 }
 h2, h4 {
   font-size: 40px;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-align: left;
-  color: #28F9C2;
   margin: -5px;
 }
 h3, h5 {
   font-size: 18px;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-align: left;
-  color: #28F9C2;
   margin: -5px;
 }
 
 p {
   font-size: 16px;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #000000;
-  text-align: center;
 }
-img {
-  width: 33%;
-}
-span {
-  font-size: 20px;
-  font-weight: 500;
-}
-
 /* Heroytan */
 .hero {
-  position: relative;
-  text-align: center;
   margin: 20px;
 }
 .hero-title {
-  position: absolute;
   bottom: 25%;
   left: -15px;
-
 }
-.hero-img {
-  margin: auto;
-  width: 100%;
-}
-
-/* Progressbar */
-.header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
-.progress-bar {
-  background-color: #28F9C2;
-  height: 5px;
-  width: 0%;
-}
-
 /*grid*/
 .year {
-  position: relative;
-  text-align: center;
   margin: 20px;
   padding-top: 20px;
 }
 .year-text {
-  position: absolute;
   top: -10px;
   left: -10px;
-}
-
-.year-img {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 #big {
   width: 100%;
@@ -256,21 +199,13 @@ span {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 /*ikoner*/
 .numbers {
-  background-color: #28F9C2;
   margin: 20px;
   margin-top: 50px;
   margin-bottom: 60px;
   padding-top: 20px;
   padding-bottom: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: baseline;
-  position: relative;
-  text-align: center;
 }
 .icons {
   padding-left: 10px;
@@ -281,13 +216,10 @@ span {
   width: 80%;
 }
 .icon-title {
-  position: absolute;
   top: -25px;
   left: -10px;
 }
-.icon-title h3, .icon-title h2 {
-  color: #000000;
-}
+
 }
 @media only screen and (max-width: 600px) {
 
