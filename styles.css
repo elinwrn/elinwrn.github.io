@@ -69,6 +69,19 @@ body {
     width: 100%;
   }
 
+  /* Progressbar */
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .progress-bar {
+    background-color: #28F9C2;
+    height: 5px;
+    width: 0%;
+  }
+  
   /*grid*/
   .year {
     position: relative;
