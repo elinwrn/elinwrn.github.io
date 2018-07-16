@@ -81,7 +81,7 @@ body {
     height: 5px;
     width: 0%;
   }
-  
+
   /*grid*/
   .year {
     position: relative;
@@ -156,7 +156,7 @@ h1 {
   font-size: 60px;
 }
 h2, h4 {
-  font-size: 40px;
+  font-size: 36px;
   margin: -5px;
 }
 h3, h5 {
@@ -172,16 +172,22 @@ p {
   margin: 20px;
 }
 .hero-title {
-  bottom: 25%;
+  bottom: 30%;
   left: -15px;
 }
+.hero-img {
+height: 400px;
+object-fit: cover;
+object-position: 75% 0;
+}
+
 /*grid*/
 .year {
   margin: 20px;
   padding-top: 20px;
 }
 .year-text {
-  top: -10px;
+  top: 0px;
   left: -10px;
 }
 #big {
@@ -236,4 +242,7 @@ p {
   h1 {
     font-size: 40px;
   }
+  .hero-title {
+    bottom: 36%;
+    left: -15px;
 }
